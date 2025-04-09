@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Youth Poetry</title>
+    <link rel="stylesheet" href="../stylecss/style.css">
+    <script defer src="../javascript/script.js"></script>
+</head>
+<body>
+    <!-- <header class="header"> -->
+    <header class="headerSignup">
+        <span class="logo"><img src="../images/l1.jpg" alt="logo"></span>
+        <h1 style="margin-left: 600px;">YOUTH POETRY</h1>
+        
+        <nav>
+            <a href="../pages/index.html" class="home-btn">Home</a>
+        </nav>
+    </header>
+
+    <div class="container" style="display: flex; justify-content: center; align-items: center; width: 100%; padding: 20px;">
+    <div class="signup-box" style="background: white; padding: 30px; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); width: 100%; max-width: 500px; text-align: center;">
+        <h2 style="margin-bottom: 20px;">SIGN UP HERE</h2>
+        <form style="display: flex; flex-direction: column;">
+            
+            <!-- Two Inputs in One Row -->
+            <div style="display: flex; gap: 10px; margin-bottom: 10px;">
+                <input type="text" placeholder="First Name" required style="flex: 1; padding: 10px; border-radius: 5px; border: 1px solid #ccc; font-size: 16px;">
+                <input type="text" placeholder="Last Name" required style="flex: 1; padding: 10px; border-radius: 5px; border: 1px solid #ccc; font-size: 16px;">
+            </div>
+
+            <!-- Gender Selection -->
+            <div class="gender-box" style="display: flex; justify-content: space-between; background: #f9f9f9; padding: 10px; border-radius: 5px; border: 1px solid #ccc; margin-bottom: 10px;">
+                <label>Gender:</label>
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+                <label><input type="radio" name="gender" value="other"> Other</label>
+            </div>
+
+            <!-- Two Inputs in One Row -->
+            <div style="display: flex; gap: 10px; margin-bottom: 10px;">
+                <input type="tel" placeholder="Mobile" required style="flex: 1; padding: 10px; border-radius: 5px; border: 1px solid #ccc; font-size: 16px;">
+                <input type="email" id="email" placeholder="Email" required style="flex: 1; padding: 10px; border-radius: 5px; border: 1px solid #ccc; font-size: 16px;">
+            </div>
+
+            <!-- Two Inputs in One Row -->
+            <div style="display: flex; gap: 10px; margin-bottom: 10px;">
+                <input type="text" placeholder="Penname" style="flex: 1; padding: 10px; border-radius: 5px; border: 1px solid #ccc; font-size: 16px;">
+                <input type="text" placeholder="Username" required style="flex: 1; padding: 10px; border-radius: 5px; border: 1px solid #ccc; font-size: 16px;">
+            </div>
+
+            <!-- Single Input -->
+            <input type="password" placeholder="New Password" required style="width: 100%; padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc; font-size: 16px;">
+
+            <!-- OTP Section -->
+            <button type="button" id="sendOTP" style="width: 100%; padding: 12px; border: none; border-radius: 5px; background: #c044b8; color: white; font-size: 16px; cursor: pointer; transition: 0.3s; margin-bottom: 10px;">
+                Send OTP
+            </button>
+
+            <input type="text" id="otp" placeholder="Enter OTP" required disabled style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc; font-size: 16px; background: #f0f0f0; cursor: not-allowed; margin-bottom: 10px;">
+
+            <!-- Submit Button -->
+            <button type="submit" style="width: 100%; padding: 12px; border: none; border-radius: 5px; background: #c044b8; color: white; font-size: 16px; cursor: pointer; transition: 0.3s;">
+                Submit
+            </button>
+        </form>
+    </div>
+</div>
+
+
+    <footer>
+        <p>YP 2025 - Made With Love In India</p>
+        <a href="../pages/privacy.html">Privacy</a> | 
+        <a href="../pages/terms.html">Terms & Conditions</a> | 
+        <a href="mailto:vikash.kr.sah.p@gmail.com">Contact Us</a>
+    </footer>
+    
+</body>
+</html>

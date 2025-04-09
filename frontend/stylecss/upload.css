@@ -1,0 +1,125 @@
+/* Container Setup */
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* Left Label Box */
+.label-box-container {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: #f1f37e;
+    border-radius: 8px;
+    border: 3px solid #ccc;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.label-box {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Upload Box (Same Size as Write Box) */
+.upload-area {
+    width: 110%;
+    height: 570px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #e6d712;
+    border-radius: 5px;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* File Upload Section */
+.upload-file-container {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between button and file name */
+}
+
+/* Hide default file input */
+.upload-area input[type="file"] {
+    display: none;
+}
+
+/* Styled Label as Button */
+.upload-btn {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: #f1c40f;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.upload-btn:hover {
+    background-color: #e0b90f;
+}
+
+/* File Name Display */
+#fileName {
+    font-size: 14px;
+    color: #333;
+    font-style:Cursive;
+}
+
+#fileName {
+    font-size: 14px;
+    color: #333;
+    font-style:Cursive;
+    margin-left: 10px; /* Space beside the button */
+    display: inline-block; /* Ensure it stays visible */
+}
+
+/* Upload Box Placeholder Text */
+.upload-area p {
+    font-style:Cursive;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Buttons Positioned at Bottom Inside Upload Box */
+.buttons {
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Buttons Styling */
+.buttons button {
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+#draftBtn {
+    background-color: #3498db;
+}
+
+#submitBtn {
+    background-color: #27ae60;
+}
+
+#deleteBtn {
+    background-color: #e74c3c;
+}

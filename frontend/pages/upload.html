@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload PDF - Youth Poetry</title>
+    <link rel="stylesheet" href="../stylecss/style.css">
+    <link rel="stylesheet" href="../stylecss/upload.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="headerSignup">
+        <span class="logo"><img src="../images/l1.jpg" alt="logo"></span>
+        <h1 style="margin-left: 600px;">YOUTH POETRY</h1>
+        
+        <nav>
+            <a href="home.html" class="home-btn">Home</a>
+        </nav>
+    </header>
+    
+    <!-- Upload Section -->
+    <div class="container">
+        
+        <!-- Left Side Label -->
+        <div class="label-box-container">
+            <div class="label-box">UPLOAD PDF</div>
+        </div>
+        
+        <!-- Right Side Upload Area -->
+        <div class="upload-area">
+            
+            <!-- File Upload Section -->
+            <div class="upload-file-container">
+                <input type="file" id="pdfUpload" accept="application/pdf">
+                <label for="pdfUpload" class="upload-btn">Choose PDF File</label>
+                <span id="fileName">No file chosen</span>                              
+            </div>
+
+            <!-- Preview Section -->
+            <div id="previewContainer" class="preview-container">
+            </div>
+
+            <!-- Bottom Action Buttons -->
+            <div class="buttons">
+                <button id="draftBtn">Draft</button>
+                <button id="submitBtn">Submit</button>
+                <button id="deleteBtn">Delete</button>
+            </div>
+
+        </div>        
+    </div>
+    
+    <!-- Footer Section -->
+    <footer>
+        <p>YP 2025 - Made With Love In India</p>
+        <a href="../pages/privacy.html">Privacy</a> | 
+        <a href="../pages/terms.html">Terms & Conditions</a> | 
+        <a href="mailto:vikash.kr.sah.p@gmail.com">Contact Us</a>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="../javascript/upload.js"></script>
+
+</body>
+</html>
